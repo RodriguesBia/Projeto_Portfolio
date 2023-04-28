@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="shortcut icon" href="favicon/websiteplanet.com-favicons/favicons/favicon-16x16.png" type="image/x-icon">
+
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <script src="https://kit.fontawesome.com/baf9a8f843.js" crossorigin="anonymous"></script>
+    <header>
+        <img src="imagens/emp-removebg-preview.png" alt="Foto minha sorrindo, com camiseta preta e braços cruzados ">
+        <h1>Analise e Desenvolvimento de Sistemas</h1>
+        <h3>Bianca Rodrigues</h3>
+        <ul>
+            <a href="https://www.linkedin.com/in/bianca-rodrigues-604752240/" target="_blank">
+                <li class="contatos">Linkedin <i class="fa-brands fa-linkedin-in"></i></li>
+            </a>
+            <a href="https://github.com/RodriguesBia" target="_blank">
+                <li class="contatos">GitHub <i class="fa-brands fa-github"></i></li>
+            </a>
+            <a href="#formulario-email">
+                <li class="contatos">E-mail <i class="fa-solid fa-envelope"></i></li>
+            </a>
+        </ul>
+    </header>
+
+    <main>
+        <h1>Sobre mim</h1>
+        <article>
+            <h2>Quem sou</h2>
+            <p>Leitora assidua de contos criminais, metida a musicista e corajosa o suficiente para largar tudo por amor à tecnologia. Atualmente estudante do curso de análise e desenvolvimento de sistemas, estou a caminho do objetivo: viver do que sempre quis; TI e programação.
+                <p>Meu encontro com a tecnologia foi acidental, sem interesse nenhum, um verdadeiro encontro de almas. Quer saber como isso aconteceu?</p>
+                <p>Com 6 anos ganhei meu primeiro computador. Aquele de tubo, bem antigo, na cor branca. Ali, com 6 anos, aprendi a fazer tudo sozinha. Desde ligar (risos) até formatar e modificar. Foi então que minha família percebeu que eu poderia ter um dom.Mas não me entreguei a ideia de primeira, sempre achei que era algo inalcançavel, difícil e (apesar de gostar muito) deixei de lado.</p>
+                 <p>Acabei perambulando por outro curso, inventei novos sonhos, novas vontades... inventei uma realidade que não me encaixava, mas que de certa forma me trazia uma "certeza" de vida. Após três semestres estudando para me tornar uma Geográfa comecei a assistir conteúdos voltados para área de TI. Foi aí que àquela chama, antes apagada, reacendeu, colocando uma decisão na minha vida.</p>
+                <p>Após alguns meses pensando optei por seguir um sonho, por mais dificil e distante que parecesse.</p>
+                <p>Hoje estudo programação voltada para front-end e apesar de ser apaixonada, tenho meus traços de personalidade que se inclinam a alguns projetos do back-end, usando, como por exemplo, Phyton, onde utilizo para me ajudar nas demandas diárias no meu atual emprego (assistente administrativo).
+                    <p>A minha procura é constante pelo conhecimento, portanto nunca terei um limite. Sempre estou pronta para descobirir e redescobrir quem sou e o que faço. </p>
+                    <p>Prazer, Bianca!</p>
+
+                </article>
+
+        <aside>
+            <h2>Projetos</h2>
+            <div class="slider">
+
+                <div class="slides">
+                    
+                        <input type="radio" name="radio-btn" id="radio1" class="button">
+                        <input type="radio" name="radio-btn" id="radio2" class="button">
+                        <input type="radio" name="radio-btn" id="radio3" class="button">
+                        <input type="radio" name="radio-btn" id="radio4" class="button">
+                   
+
+                    
+                        <div class="slide first">
+                            <p class="texto-projetos">Calculadora<a href="https://rodriguesbia.github.io/Calculadora/" target="_blank"><img src="imagens/calculadora.jpg" alt=""></a></p>
+                        </div>
+
+                        <div class="slide">
+                            <img src="imagens/fundo-preto.webp" alt="">
+                        </div>
+
+                        <div class="slide">
+                            <img src="imagens/fundo-preto.webp" alt="">
+                        </div>
+
+                        <div class="slide">
+                            <img src="imagens/fundo-preto.webp" alt="">
+                        </div>
+
+                        <div class="navegation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+
+                        </div>
+                    
+
+                </div>
+
+                <div class="manual-navegation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                    
+                </div>
+
+            </div>
+
+            <div class="ferramentas">
+                <h2>Conhecimentos</h2>
+                
+
+                <img src="imagens/html.png" alt="">
+                <img src="imagens/css.png" alt="">
+                <img src="imagens/javas.png" alt="">
+                <img src="imagens/excel.png" alt="">
+                <img src="imagens/word.png" alt="">
+            </div>
+
+           </aside>
+
+           <h2 class="contato">Fale comigo:</h2>
+
+           <form action="mailto:biarolima90@gmail.com" method="POST" enctype="text/plain" id="formulario-email">
+            <p>Nome: <br/></p>
+            <input  name="nome" type="tex"> <br/>
+            <p>E-mail:<br/></p>
+            <input type="email" name="email"><br/>
+            <p>Mensagem:<br/></p>
+            <textarea name="mensagem" id="corpo-mens" cols="60" rows="20"></textarea>
+            <input type="submit" value="Enviar" class="botao">
+            <input type="reset" value="Limpar" class="botao">
+           </form>
+
+           <footer>
+            <p>&copy;2023</p>
+       </footer>
+           </main>
+
+
+           <script src="script.js"></script>
+
+</body>
+</html>
