@@ -261,6 +261,12 @@ footer{
     
 }
 
+@media screen  and (max-width: 1180px) and (min-width: 800px) {
+    textarea{
+        width: 100%;
+    }
+}
+
 
 @media screen and (max-width: 768px) and (min-width: 300px) {
 
@@ -281,6 +287,7 @@ footer{
         float: none;
         width: 80%;
         margin: 20px auto;
+        
     }
 
     .ferramentas > img{
@@ -291,6 +298,10 @@ footer{
     header > img{
         margin: auto;
         display: block;
+    }
+
+    textarea{
+        width: 100%;
     }
 
 }
@@ -320,6 +331,7 @@ footer{
     p{
         font-size: 15px;
     }
+
     
 }
 
