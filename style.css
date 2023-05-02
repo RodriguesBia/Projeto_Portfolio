@@ -76,6 +76,7 @@ main{
     padding: 20px;
     margin: 20px 20px;
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.347);
+    text-align: justify;
 }
 
 main > h1, article > h2, aside > h2, .ferramentas > h2, .contato{
