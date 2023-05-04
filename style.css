@@ -333,12 +333,13 @@ footer{
         font-size: 15px;
     }
 
+    form > textarea{
+        display: block;
+    }
+
     
 }
 
-form > p{
-    font: italic bold 15px var(--fonte-personalizada);
-}
 
 .botao{
     color: var(--cor6);
@@ -354,4 +355,6 @@ form > input, textarea{
     border-color: var(--cor1);
     background-color: rgba(197, 197, 235, 0.413);
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.589);
+    padding: 2px;
+    margin: 7px 0px 5px 0px;
 }
