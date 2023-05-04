@@ -334,7 +334,7 @@ footer{
     }
 
     form > textarea{
-        display: block;
+        display:block;
     }
 
     
@@ -356,5 +356,5 @@ form > input, textarea{
     background-color: rgba(197, 197, 235, 0.413);
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.589);
     padding: 2px;
-    margin:7px 0px 5px 0px;
+    margin: 7px 0px 5px 0px;
 }
